@@ -1,7 +1,6 @@
 (function() {
   // GET MAIN DIV
   var div = document.getElementById('aletheia-badge');
-  // STYLE MAIN DIV
   div.setAttribute("style", "text-align: center;max-width: 125px;margin: auto;");
   // ADD LOGO TO MAIN DIV
   var logo = `
@@ -61,5 +60,9 @@
   `;
   var img = new Image();
   div.innerHTML = logo; 
+  // CLICK EVENT ON DIV
+  document.getElementById('aletheia-badge').onclick = function() {
+    window.open('https://aletheiadata.org');
+  };
   
 })();
