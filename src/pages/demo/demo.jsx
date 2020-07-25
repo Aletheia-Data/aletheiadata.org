@@ -7,11 +7,9 @@ import {
   Facet,
   SearchProvider,
   SearchBox,
-  Results,
   PagingInfo,
   ResultsPerPage,
   Paging,
-  Sorting,
   WithSearch
 } from "@elastic/react-search-ui";
 import { Layout } from "@elastic/react-search-ui-views";
@@ -21,7 +19,6 @@ import {
   buildAutocompleteQueryConfig,
   buildFacetConfigFromConfig,
   buildSearchOptionsFromConfig,
-  buildSortOptionsFromConfig,
   getConfig,
   getFacetFields
 } from "../../config/config-helper";
