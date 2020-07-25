@@ -1,0 +1,40 @@
+{
+  "engineName": "aletheiadata",
+  "hostIdentifier": "host-joab9h",
+  "endpointBase": "https://54ddcdde7f87464bac1f7bfa98e2de1f.app-search.us-east-1.aws.found.io",
+  "searchKey": "search-6xrfb8pvfx16kqhg5wud7x5r",
+  "resultFields": [
+    "apellidos",
+    "fecha_designacion",
+    "desccargo",
+    "institucion",
+    "fecha_nacimiento",
+    "tipoempleado",
+    "sueldobase",
+    "nombres",
+    "nivel_escolar",
+    "sueldoneto",
+    "genero",
+    "tipodecargo",
+    "fechaprimercargo",
+    "categoriacargo",
+    "tipodecarrera",
+    "id"
+  ],
+  "sortFields": [
+    "fecha_designacion",
+    "fechaprimercargo",
+    "fecha_nacimiento"
+  ],
+  "facets": [
+    "categoriacargo",
+    "genero",
+    "institucion",
+    "nivel_escolar",
+    "tipodecargo",
+    "tipodecarrera",
+    "tipoempleado",
+    "desccargo"
+  ],
+  "titleField": ["apellidos"]
+}
