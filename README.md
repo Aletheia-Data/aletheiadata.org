@@ -26,6 +26,7 @@ The objective is to create an ecosystem where these files are ALWAYS available, 
 - [✨ Code Style](#-code-style)
 - [🛳 Build](#-build)
 - [💖 Contributing](#-contributing)
+
 ## 🏄 Get Started
 
 The app is a React app built with [React.js](https://reactjs.org/).
